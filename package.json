@@ -1,0 +1,39 @@
+{
+  "name": "template-ts-app",
+  "version": "1.0.0",
+  "description": "Template for TypeScript based Web application",
+  "main": "index.js",
+  "scripts": {
+    "setup": "gulp",
+    "start": "http-server ./www -p 3030 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pushan Mitra",
+  "license": "MIT",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.4.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-typescript": "^3.2.3",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.20.1",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.34",
+    "@types/react-dom": "^16.0.3",
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1",
+    "popper.js": "^1.12.9",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
