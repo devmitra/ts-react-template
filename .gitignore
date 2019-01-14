@@ -1,4 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
+### Dist
+dist/
 ### Application
 /www
 ### Windows template
@@ -159,4 +161,3 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-
