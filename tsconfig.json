@@ -1,12 +1,11 @@
 {
   "compilerOptions": {
-    "outDir": "www/dist",
+    "outDir": "dist",
     "module": "commonjs",
     "target": "es5",
-    "lib": ["es6", "dom"],
+    "lib": ["es6"],
     "sourceMap": true,
     "allowJs": true,
-    "jsx": "react",
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
@@ -17,7 +16,7 @@
     "noUnusedLocals": true
   },
   "include": [
-    "./sources/**/*"
+    "./sources/**/*.ts"
   ],
   "exclude": [
     "node_modules",
@@ -27,5 +26,9 @@
     "webpack",
     "jest",
     "src/setupTests.ts"
+  ],
+  "files": [
+    "./node_modules/@types/mocha/index.d.ts",
+    "./node_modules/@types/node/index.d.ts"
   ]
 }
